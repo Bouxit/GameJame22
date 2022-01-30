@@ -1,1 +1,2 @@
-# GameJame22
+# GlobalGameJam-22
+ 
