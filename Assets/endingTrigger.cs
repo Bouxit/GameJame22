@@ -6,6 +6,7 @@ public class endingTrigger : MonoBehaviour
 
  public GameObject Ending;
  public GameObject Level;
+ public GameObject UI;
 
   void OnCollisionEnter(Collision other)
   {
@@ -18,5 +19,6 @@ public class endingTrigger : MonoBehaviour
     Debug.Log("Player collided trigger");
     Ending.SetActive(true);
     Level.SetActive(false);
+    UI.SetActive(false);
   }
 }
